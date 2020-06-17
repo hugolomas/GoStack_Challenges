@@ -33,7 +33,7 @@ app.post("/repositories", (request, response) => {
   const repositorie = { 
     id: uuid(), 
     title: title ? title : 'Desafio Node.js', 
-    url: url ? url : 'https://github.com/hugolomas/GoStack-NodeJs', 
+    url: url ? url : 'https://github.com/hugolomas/GoStack_Challenges', 
     techs: techs ? techs : ['Node.js', '...'],
     likes: 0
   }
